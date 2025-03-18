@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div{
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .box > .p1 > .p2{
+        font-size: 15px;
+        color:  red;
+    }
+
+    .box > .p3{
+        color: red;
+    }
+
+</style>
+
+<body>
+
+    <div class="box">
+        <p>
+            Tekst w elemencie potomnym
+        </p>
+
+        <div class="p1">
+            Tekst w elemencie potomnym
+            <p class="p2">
+                Tekst w elemencie wnuku
+            </p>
+        </div>
+
+        <p class="p3">
+            Tekst w elemencie potomnym
+        </p>
+
+    </div>
+    
+</body>
+</html>
