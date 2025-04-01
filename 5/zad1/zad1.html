@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            border: solid;
+            border-width: 1px;
+        }
+
+        .column{
+            display: flex;
+            text-align: center;
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            background-color: lightblue;
+        }
+
+        .flex-container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid;
+            border-width: 1px;
+            height: 400px;
+            height: 400px;
+        }
+
+        .box{
+            display: flex;
+            height: 40px;
+            width: 70px;
+            margin: 5px;
+            text-align: center;
+            background-color: lightblue;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+<div class="flex-container">
+    <div class="column">Kolumna 1</div>
+    <div class="column">Kolumna 2</div>
+    <div class="column">Kolumna 3</div>
+</div>
+
+
+<div class="flex-container2">
+    <div class="box">element 1</div>
+    <div class="box">element 2</div>
+    <div class="box">element 3</div>
+</div>
+
+
+
+</body>
+</html>

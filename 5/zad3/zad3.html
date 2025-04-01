@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .row{
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            width: 800px;
+        }
+
+        .equal-width{
+            text-align: center;
+            display: flex;
+            background-color: lightblue;
+        }
+
+        .row2{
+            display: flex;
+        }
+
+        .fixed-per{
+            height: 100%;
+            width: 40%;
+            background-color: lightblue;
+        }
+
+        .flexible{
+
+            height: 100%;
+            width: 1fr;
+            background-color: lightgrey;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="equal-width">elemant 1</div>
+        <div class="equal-width">elemant 2</div>
+        <div class="equal-width">elemant 3</div>
+    </div>
+
+
+    <div class="row2">
+        <div class="fixed-per">elemant 4</div>
+        <div class="flexible">elemant 5</div>
+
+    </div>
+
+    
+</body>
+</html>
