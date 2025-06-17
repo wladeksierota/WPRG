@@ -1,0 +1,197 @@
+
+
+.main{
+    margin-top: 150px;
+    margin-left: 35%;
+}
+
+h1 {
+    font-family: Geist_Regular;
+    color: rgb(26, 26, 26);
+    padding-bottom: 10px;
+    }
+
+.p_title{
+    font-family: Geist_Regular;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(70, 70, 70);
+}
+
+.p_txt{
+    font-family: Geist_Light;
+    font-size: 20px;
+
+}
+
+ul {
+    padding-left: 20px;
+    }
+        
+li {
+    margin-bottom: 8px;
+    font-family: Geist_Light;
+    font-size: 20px;
+    color:rgb(72, 72, 72);
+    list-style-type: square;
+}
+
+.GB{
+    font-family: Geist_Light;
+    font-size: 17px;
+    display: block;
+    color: rgb(26, 26, 26);
+    width: 195px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(226, 224, 224);
+    margin-top: 100px;
+    transition: all 0.2s;
+}
+
+.GB:hover{
+    padding: 10px 14px;
+}
+
+.GB:active{
+    background-color: rgb(182, 182, 182);
+}
+
+.R{
+        font-family: Geist_Light;
+        font-size: 14px;
+        color: rgb(118, 118, 118);
+        margin-top: 120px;
+        margin-left: 10%;
+      }
+
+.CV1{
+    Font-family: Geist_Light;
+     font-size: 20px;
+    background-color: rgb(10, 172, 252);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+     color: white;
+     margin-top: 100px;
+    transition: all 0.2s;
+}
+
+.CV2{
+    Font-family: Geist_Light;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: rgb(107, 207, 108);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    color: white;
+    margin-top: 100px;
+    transition: all 0.2s;
+}
+
+.CV1:hover{
+    background-color: rgb(89, 200, 255);
+}
+
+.CV2:hover{
+    background-color: rgb(69, 168, 69);
+}
+
+.form-container {
+    margin-top: 40px;
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.window {
+    margin-bottom: 20px;
+}
+
+label{
+    font-family: Geist_Light;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+.mess {
+    height: 120px;
+    resize: vertical;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+}
+
+.pdf {
+    margin-top: 5px;
+    font-family: Geist_Light;
+    font-size: 14px;
+
+}
+
+.subB {
+    font-family: Geist_Light;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.subB:hover {
+    background-color: #45a049;
+}
+
+.admin-button{
+    font-family: Geist_Light;
+    position: absolute;
+    font-size: 17px;
+    display: block;
+    color: rgb(26, 26, 26);
+    width: 110px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(226, 224, 224);
+    margin-left: 1050px;
+    margin-top: -8px;
+    transition: all 0.2s;
+}
+
+.admin-button:hover{
+    padding: 10px 14px;
+}
+
+.admin-button:active{
+    background-color: rgb(182, 182, 182);
+}
+
